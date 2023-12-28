@@ -49,8 +49,8 @@
 - [x] 𝐹𝑖𝑙𝑒 𝑆𝑡𝑜𝑟𝑒
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] [𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...](https://telegram.me/NobiDeveloper/1055)
-* [@Nobita-Filter-Bot](https://telegram.me/Nobita-Filter-Bot)
-* 𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.me/BotszList'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
+* [@Nobita_Filter_Bot](https://telegram.me/Nobita_Filter_Bot)
+* 𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.me/NobiDeveloper'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
 
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
@@ -106,7 +106,7 @@
 * `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
 * `OPENAI_API`: OpenAI API. Get this value from [API keys](https://platform.openai.com/account/api-keys).
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com) [video](https://youtu.be/1G1XwEOnxxo)
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI.
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
