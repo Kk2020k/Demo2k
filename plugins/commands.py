@@ -24,10 +24,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖  ᴜᴘᴅᴀᴛᴇꜱ  🤖', url="https://telegram.me/Nobideveloper")
+                InlineKeyboardButton('🤖  ᴜᴘᴅᴀᴛᴇꜱ  🤖', url="https://t.me/Team_MDL")
             ],
             [
-                InlineKeyboardButton('♻️  ᴘʟᴇᴀꜱᴇ ꜱʜᴀʀᴇ  ♻️', url=f"https://telegram.me/share/url?url=telegram.me/Nobideveloper"),
+                InlineKeyboardButton('♻️  ᴘʟᴇᴀꜱᴇ ꜱʜᴀʀᴇ  ♻️', url=f"https://telegram.me/share/url?url=t.me/Team_MDL"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -150,7 +150,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/AllRequestGroups")
+                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://t.me/Team_MDL")
                          ]
                         ]
                     )
@@ -166,7 +166,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/AllRequestGroups")
+                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://t.me/Team_MDL")
                          ]
                         ]
                     )
@@ -257,7 +257,7 @@ async def start(client, message):
                 InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url=g)
             ],
             [
-                InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url="https://youtu.be/GdaUbzxDTKs")
+                InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url="https://t.me/Demoshorts")
             ]
             ]
         else:
@@ -315,7 +315,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/AllRequestGroups")
+                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/Team_MDL")
                          ]
                         ]
                     )
@@ -369,7 +369,7 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/AllRequestGroups")
+                  InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/Team_MDL")
                  ]
                 ]
             )
@@ -407,7 +407,7 @@ async def start(client, message):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/AllRequestGroups")
+                              InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/Team_MDL")
                              ]
                             ]
                         )
@@ -457,7 +457,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/AllRequestGroups")
+                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/Team_MDL")
                      ]
                     ]
                 )
@@ -941,13 +941,13 @@ async def deletemultiplefiles(bot, message):
 async def shortlink(bot, message):
     btn = [[
         InlineKeyboardButton(text="ʀᴇᴘᴏ", url="https://github.com/NobiDeveloper/Nobita-Filter-Bot"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/NobiDeveloperr")
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/Team_MDL")
         ],[
-        InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ꜱʜᴏʀᴛɴᴇʀ", url="http://telegram.me/Shizuka_Filter_Bot?startgroup=true")
+        InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ꜱʜᴏʀᴛɴᴇʀ", url="http://telegram.me/MDL_Filter_Bot?startgroup=true")
     ]]
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
-        return await message.reply_photo(photo='https://telegra.ph/file/bf6ffdff12f81d75b46f1.jpg', caption="<b>──────「 <a href='https://telegram.dog/NobiDeveloper'>ᴇᴀʀɴ ᴍᴏɴᴇʏ</a> 」──────\n\n➥ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴇᴀʀɴ ʟᴏᴛs ᴏꜰ ᴍᴏɴᴇʏ ꜰʀᴏᴍ ᴛʜɪꜱ ʙᴏᴛ.\n\n›› sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 𝟹𝟶𝟶 ᴍᴇᴍʙᴇʀs.\n\n›› sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ <a href='https://tnshort.net/ref/devilofficial'>ᴛɴʟɪɴᴋ</a> ᴏʀ <a href='https://onepagelink.in/ref/Nobita'>ᴏɴᴇᴘᴀɢᴇʟɪɴᴋ</a>. [ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴏᴛʜᴇʀ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ ]\n\n›› sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href='https://telegram.me/Nobideveloper/1063'>ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ</a>.\n\n➥ ᴛʜɪꜱ ʙᴏᴛ ꜰʀᴇᴇ ꜰᴏʀ ᴀʟʟ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ꜰʀᴇᴇ ᴏꜰ ᴄᴏꜱᴛ.</b>", reply_markup=InlineKeyboardMarkup(btn))
+        return await message.reply_photo(photo='https://telegra.ph/file/bf6ffdff12f81d75b46f1.jpg', caption="<b>──────「 <a href='https://telegram.dog/Team_MDL'>ᴇᴀʀɴ ᴍᴏɴᴇʏ</a> 」──────\n\n➥ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴇᴀʀɴ ʟᴏᴛs ᴏꜰ ᴍᴏɴᴇʏ ꜰʀᴏᴍ ᴛʜɪꜱ ʙᴏᴛ.\n\n›› sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 𝟹𝟶𝟶 ᴍᴇᴍʙᴇʀs.\n\n›› sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ <a href='https://tnshort.net/ref/devagovin'>ᴛɴʟɪɴᴋ</a> . [ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴏᴛʜᴇʀ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ ]\n\n›› sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href='https://telegram.me/Team_MDL'>ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ</a>.\n\n➥ ᴛʜɪꜱ ʙᴏᴛ ꜰʀᴇᴇ ꜰᴏʀ ᴀʟʟ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ꜰʀᴇᴇ ᴏꜰ ᴄᴏꜱᴛ.</b>", reply_markup=InlineKeyboardMarkup(btn))
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
@@ -1034,9 +1034,9 @@ async def ginfo(bot, message):
 async def tutorial(bot, message):
     btn = [[
         InlineKeyboardButton(text="ʀᴇᴘᴏ", url="https://github.com/NobiDeveloper/Nobita-Filter-Bot"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/NobiDeveloperr")
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/Team_MDL")
         ],[
-        InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ᴛᴜᴛᴏʀɪᴀʟ", url="http://telegram.me/Nobita_Filter_Bot?startgroup=true")
+        InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ᴛᴜᴛᴏʀɪᴀʟ", url="http://telegram.me/MDL_Filter_Bot?startgroup=true")
     ]]
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -1058,15 +1058,15 @@ async def tutorial(bot, message):
     reply = await message.reply_text("<b>ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ...</b>")
     await save_group_settings(grpid, 'tutorial', tutorial)
     await save_group_settings(grpid, 'is_tutorial', True)
-    await reply.edit_text(f"𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡 𝘼𝙙𝙙𝙚𝙙\n\n<b>➥  ʏᴏᴜʀ ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ ꜰᴏʀ {title} ɪs \n\n☞  <code>{tutorial}</code>\n\n★  ʙʏ :  <a href=https://telegram.me/Nobideveloper>@NobiDeveloper</a></b>", disable_web_page_preview=True)
+    await reply.edit_text(f"𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡 𝘼𝙙𝙙𝙚𝙙\n\n<b>➥  ʏᴏᴜʀ ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ ꜰᴏʀ {title} ɪs \n\n☞  <code>{tutorial}</code>\n\n★  ʙʏ :  <a href=https://telegram.me/Team_MDL>@Team_MDL</a></b>", disable_web_page_preview=True)
 
 @Client.on_message(filters.command("rem_tutorial"))
 async def removetutorial(bot, message):
     btn = [[
         InlineKeyboardButton(text="ʀᴇᴘᴏ", url="https://github.com/NobiDeveloper/Nobita-Filter-Bot"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/NobiDeveloperr")
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/Team_MDL")
         ],[
-        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴍʏ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="https://youtube.com/@Nobideveloper")
+        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴍʏ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="https://youtube.com/@MoviesDudeZ")
     ]]
     userid = message.from_user.id if message.from_user else None
     if not userid:
