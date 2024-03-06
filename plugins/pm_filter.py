@@ -1115,7 +1115,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💠  ʜᴇʟᴘ  💠', callback_data='help'),
             InlineKeyboardButton('♻️  ᴀʙᴏᴜᴛ  ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('💰  ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ  💸', callback_data='shortlink_info')
+            InlineKeyboardButton('🥀 Jᴏɪɴ ᴏᴠᴇʀ Cʜᴀɴɴᴇʟ ❤️', callback_data='shortlink_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1263,7 +1263,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "button":
         buttons = [[
-                    InlineKeyboardButton("💶    ᴘʟᴇᴀsᴇ  ᴅᴏɴᴀᴛᴇ    💶", url="https://t.me/Team_MDL")
+                    InlineKeyboardButton("💶    ᴘʟᴇᴀsᴇ  ᴅᴏɴᴀᴛᴇ    💶", url="https://t.me/Team_MDL_Admin_bot")
                  ],[
                     InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ", url="https://telegram.me/Team_MDL_Admin_Bot")
