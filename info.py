@@ -14,8 +14,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '16229284'))
-API_HASH = environ.get('API_HASH', 'ebd1fead3cc15343bea10b5c164165ba')
+API_ID = int(environ.get('API_ID', '19902008'))
+API_HASH = environ.get('API_HASH', 'd973fa8af375787c85dd6d2dfac94d7e')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6625397723:AAGW6-jE1cIzn4HD-4m1f5V8UmWjw7QXkNA")
 
 # Bot settings
@@ -28,7 +28,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/9acca333738f41eb
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/9acca333738f41eba89f8.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1103137195').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5204439926').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002113728679').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -44,7 +44,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://monitgmoni:MoniTG007@cluster0.bxwiejd.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get("DATABASE_NAME", "anime")
+DATABASE_NAME = environ.get("DATABASE_NAME", "anime2")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # stickers
