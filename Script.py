@@ -234,15 +234,13 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """
-<b>[{file_name}](https://telegram.me/Team_MDL)
-
-•────•────────•────•
-📌 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ​ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](http://telegram.me/+KAjYvbNDdKhlYmE1)
-🎬 ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ​ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://telegram.me/Team_MDL)
-•────•────────•────•
-
-©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [Team_MDL](https://t.me/Team_MDL)</b>"""
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : [{file_name}](https://t.me/Team_MDL)
+    
+╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+▫️<a href=https://t.me/Team_MDL> ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ​ </a>
+▫️<a href=https://t.me/+KAjYvbNDdKhlYmE1> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
+▫️<a href=https://youtube.com/@MoviesDudeZ> ʏᴛ ᴄʜᴀɴɴᴇʟ​ </a>
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>{title}</b>
