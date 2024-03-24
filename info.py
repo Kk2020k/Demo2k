@@ -24,10 +24,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN')
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', '')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/d2f6fe4c981c91b97ca66.jpg https://telegra.ph/file/9acca333738f41eba89f8.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/9acca333738f41eba89f8.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/9acca333738f41eba89f8.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/9acca333738f41eba89f8.jpg")
 
 # Admins, Channels & User
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -62,7 +62,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Nobideveloper")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # stickers
-STICKERS = (environ.get('STICKERS', 'CAACAgUAAxkBAAIKqWP81BZ6YnpWEFoF_4JPR0EbjsO3AAIvBwACnMjpV9YvaONl41IBHgQ CAACAgUAAxkBAAIKrmP81GnWQ0d_BAZhre0dMc5SwJKOAAJ0DgACgr3gVwrjYuxSJxn7HgQ')).split()
+STICKERS = (environ.get('STICKERS', 'CAACAgUAAxkBAAENnUFlrTIf0FT-TgqEaSAhVh_UQKWFiQACFgoAAoBu0VSY_9b1MN-k_R4E')).split()
 
 # FSUB
 auth_channel = environ.get('AUTH_CHANNEL')
