@@ -21,7 +21,7 @@ async def autoapprove(client, message: ChatJoinRequest):
         caption = f"<b>{message.from_user.mention()},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {message.chat.title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.</b>"
         await client.send_photo(
             message.from_user.id, 
-            photo='https://telegra.ph/file/a706afc296de6da2a40c8.jpg', 
+            photo='https://telegra.ph/file/9acca333738f41eba89f8.jpg', 
             caption=caption, 
             reply_markup=markup
         )
